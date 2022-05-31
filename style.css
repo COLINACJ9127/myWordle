@@ -1,15 +1,47 @@
 *{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-}; 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
 
 html{
-    font-size: 62.5%; 
+    font-size: 62.5%;
+}
 
-};
-
-body{
+.body{
     background-color: #121f3d;
     color: white; 
+    width: 100vw;
+    height: 100vh;
 }
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(107, 105, 105);
+    border-radius: 8px;
+    margin: 4px; 
+    background-color: transparent;
+    color:  white;
+    transition: 400ms;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 400ms;
+    background-color: #2a4583;
+}
+
+
